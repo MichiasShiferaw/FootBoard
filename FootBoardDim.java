@@ -7,3 +7,10 @@ public class FootBoardDim {
    // height = 144 / (width * length);
     return height;
   }
+
+  public static void main(String[] args) {
+
+    Scanner userInput = new Scanner(System.in);
+    double length;
+    double height;
+    
