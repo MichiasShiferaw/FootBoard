@@ -18,3 +18,7 @@ public class FootBoardDim {
     length = userInput.nextDouble();
     double width;
     
+    width = 0.0;
+    System.out.println("Enter the width of the board foot (inches):");
+    width = userInput.nextDouble();
+
