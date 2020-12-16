@@ -29,3 +29,8 @@ public class FootBoardDim {
       System.out.print("Invalid input! ");
       System.exit(0);
     }
+    height = 144 / (width * length);
+    System.out.println("(In inches) the final dimension is ");
+    System.out.print(height);
+  }
+}
