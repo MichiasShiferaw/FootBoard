@@ -14,3 +14,4 @@ public class FootBoardDim {
     double length;
     double height;
     
+    System.out.println("Enter the length of the board foot (inches):");
