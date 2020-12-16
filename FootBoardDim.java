@@ -22,3 +22,10 @@ public class FootBoardDim {
     System.out.println("Enter the width of the board foot (inches):");
     width = userInput.nextDouble();
 
+    //This insures that the length and width are not negative
+    if (length <= 0.0 || width <= 0) {
+
+      //If the if statement is true then exit the program
+      System.out.print("Invalid input! ");
+      System.exit(0);
+    }
